@@ -19,7 +19,7 @@ public class DatabaseConnection {
 
             Connection connection = DriverManager.getConnection(
                     "jdbc:oracle:thin:@localhost:1521/xe", "system",
-                    "sumati1234");
+                    "su********");
 
             String sql = "select sysdate as current_day from dual";
 
